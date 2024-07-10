@@ -6,9 +6,14 @@
 }
 
 /* Generics */
+html {
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+
+}
+
 body {
     font-family: 'Rubik Mono One', sans-serif;
-    overflow-y: hidden;
 }
 
 img {
@@ -79,7 +84,7 @@ a {
 
 .btn {
     color: black;
-    background-color: white;
+    background-color: #fff;
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -87,4 +92,13 @@ a {
     line-height: 40px;
     text-align: center;
     font-size: 12px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    scale: 1.1;
+}
+
+.btn:active {
+    scale: 1;
 }
