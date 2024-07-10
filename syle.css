@@ -4,3 +4,87 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Generics */
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+    overflow-y: hidden;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* Utils */
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yell {
+    background-color: yellow;
+}
+
+/* Main */
+
+.page {
+    height: 100vh;
+    color: yellow;
+}
+
+.image {
+    margin: 0 auto;
+}
+
+.card-image {
+    text-align: center;
+}
+
+.page h1 {
+    font-size: 48px;
+}
+
+.page.bg-yell h1 {
+    color: green;
+}
+
+/* Menu Button */
+
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 20px;
+}
+
+.menu .btn{
+    margin-right: 10px;
+}
+
+.btn {
+    color: black;
+    background-color: white;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 12px;
+}
